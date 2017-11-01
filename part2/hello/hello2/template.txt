@@ -1,0 +1,7 @@
+${greeting}, ${whom}.
+
+This is to let you know that your template has been rendered.
+
+	Sincerely,
+
+	Terraform

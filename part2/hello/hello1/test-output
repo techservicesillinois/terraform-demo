@@ -1,0 +1,7 @@
+#!  /usr/bin/env bash
+
+#   Run this after `terraform plan' has been run.
+
+echo "The content of the rendered template is:";
+echo;
+echo -e "\t\"$(terraform output rendered)\"";

@@ -1,0 +1,5 @@
+#!  /usr/bin/env bash
+
+#   Run this after `terraform apply' has been run.
+
+echo "$(terraform output rendered)";
