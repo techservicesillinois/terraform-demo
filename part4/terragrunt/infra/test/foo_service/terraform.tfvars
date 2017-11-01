@@ -6,7 +6,7 @@ terragrunt = {
   }
 
   terraform {
-    source = "git::git@github.com:cites-illinois/terraform-demo.git//part4/terragrunt/foo_app?ref=develop"
+    source = "git::git@github.com:cites-illinois/terraform-demo.git//part4/terragrunt/app/foo_app?ref=develop"
   }
 }
 
