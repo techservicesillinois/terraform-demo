@@ -12,13 +12,18 @@
 # ami             Amazon machine image to use.
 # instance_type   Instance type
 
+provider "aws" {
+  region = "us-east-2"
+}
+
 variable "name" {
   default = [
     "Moe",
     "Larry",
     "Curly",
-  # "Shemp",
   ]
+
+  # "Shemp",
 }
 
 resource "aws_instance" "app" {
